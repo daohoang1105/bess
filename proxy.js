@@ -4,7 +4,7 @@ const url = require('url');
 const zlib = require('zlib');
 
 // Cấu hình
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const TARGET_URL = 'https://ess-ds.com'; // Thay bằng URL trang web bạn muốn proxy
 
 // Hàm thay thế CNY thành VNĐ
