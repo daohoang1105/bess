@@ -1,0 +1,26 @@
+{
+  "name": "cny-to-vnd-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy để chuyển đổi CNY sang VND",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "dev": "nodemon proxy.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.0",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^2.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "proxy",
+    "currency",
+    "cny",
+    "vnd"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
