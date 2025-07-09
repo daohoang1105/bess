@@ -18,7 +18,12 @@ function replaceCnyWithVnd(text) {
     .replace(/元/g, 'VNĐ')
     .replace(/人民币/g, 'VNĐ')
     .replace(/RMB/g, 'VNĐ')
-    .replace(/rmb/g, 'vnđ');
+    .replace(/rmb/g, 'vnđ')
+    .replace(/正常/g, 'Normal')
+    .replace(/放电/g, 'Discharge')
+    .replace(/充电/g, 'Charge')
+    .replace(/故障/g, 'Fault')
+    .replace(/停止/g, 'Stop');
 }
 
 // Hàm để decompress response nếu cần
